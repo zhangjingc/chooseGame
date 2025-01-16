@@ -1,4 +1,4 @@
-package zjc.service;
+package zjc.chooseGame.service;
 
 
 import org.springframework.stereotype.Service;

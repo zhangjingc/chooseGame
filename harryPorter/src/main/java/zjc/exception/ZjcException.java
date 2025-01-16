@@ -1,4 +1,4 @@
-package zjc.handler.exception;
+package zjc.exception;
 
 public class ZjcException extends RuntimeException {
     private final String businessType;

@@ -1,8 +1,8 @@
-package zjc.mapper;
+package zjc.chooseGame.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
-import zjc.bean.UserInfo;
+import zjc.chooseGame.bean.UserInfo;
 
 @Repository
 @Mapper

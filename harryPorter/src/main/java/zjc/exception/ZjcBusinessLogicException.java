@@ -1,4 +1,4 @@
-package zjc.handler.exception;
+package zjc.exception;
 
 public class ZjcBusinessLogicException extends ZjcException {
 

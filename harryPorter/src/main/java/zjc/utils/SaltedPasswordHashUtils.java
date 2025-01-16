@@ -1,6 +1,6 @@
 package zjc.utils;
 
-import zjc.handler.exception.ZjcBusinessLogicException;
+import zjc.exception.ZjcBusinessLogicException;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

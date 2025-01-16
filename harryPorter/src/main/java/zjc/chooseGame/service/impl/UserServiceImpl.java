@@ -1,10 +1,10 @@
-package zjc.service.impl;
+package zjc.chooseGame.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import zjc.bean.UserInfo;
-import zjc.mapper.UserInfoMapper;
-import zjc.service.UserService;
+import zjc.chooseGame.bean.UserInfo;
+import zjc.chooseGame.mapper.UserInfoMapper;
+import zjc.chooseGame.service.UserService;
 import zjc.utils.SaltedPasswordHashUtils;
 
 import javax.annotation.Resource;

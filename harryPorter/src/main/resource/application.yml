@@ -42,3 +42,8 @@ mybatis:
   type-aliases-package: com.me.test.pojo
   #指定位置扫描Mapper接口对应的XML文件 classpath:xml文件位置
   mapper-locations: classpath:mapper/*.xml
+
+# ES 配置
+elasticsearch:
+  host: localhost
+  port: 9200

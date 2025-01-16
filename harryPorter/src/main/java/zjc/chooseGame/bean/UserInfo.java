@@ -1,4 +1,4 @@
-package zjc.bean;
+package zjc.chooseGame.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

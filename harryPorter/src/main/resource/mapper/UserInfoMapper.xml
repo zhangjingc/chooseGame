@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="zjc.mapper.UserInfoMapper">
-    <select id="queryUserInfoByUserName" resultType="zjc.bean.UserInfo">
+<mapper namespace="zjc.chooseGame.mapper.UserInfoMapper">
+    <select id="queryUserInfoByUserName" resultType="zjc.chooseGame.bean.UserInfo">
         SELECT * FROM hp_user WHERE user_name = #{name}
     </select>
 
-    <insert id="insertUser" parameterType="zjc.bean.UserInfo">
+    <insert id="insertUser" parameterType="zjc.chooseGame.bean.UserInfo">
         insert into hp_user (user_name, user_password)
         values (#{username},#{password});
     </insert>
